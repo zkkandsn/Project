@@ -1,0 +1,150 @@
+.headmenu {
+  width: 1440px;
+  height: 56px;
+  top: -0.4px;
+  gap: 47px;
+  position: relative;
+  background-color: #fefefe;
+  box-shadow: 0px 2px 4px rgba(241, 114, 40, 0.05);
+  /* background-color: grey; */
+  display: flex;
+}
+/* FOOD DELIVERY*/
+.headlogoicon {
+  background-image: url("../Icons/header/iamage.png");
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  position: relative;
+}
+.headlogotext {
+  color: #f17228;
+  position: relative;
+  width: 200px;
+  height: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  margin-left: 170px;
+}
+.headlogo {
+  /* display: flex; */
+  width: 250px;
+}
+.mainmenu {
+  display: flex;
+  margin: 20px;
+  text-decoration: none;
+}
+/* НҮҮР*/
+.nuur {
+  color: #f17228;
+  position: static;
+  width: 43px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+  text-decoration: none;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: center;
+}
+/* ХООЛНЫ ЦЭС*/
+.hoolniitses {
+  position: static;
+  width: 170px;
+  height: 24px;
+  left: 3px;
+  top: 0px;
+  color: #000000;
+  text-decoration: none;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: center;
+}
+/* ХҮРГЭЛТИЙН БҮС*/
+.hurgeltiinbus {
+  position: static;
+  width: 170px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+  color: #000000;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  /* identical to box height */
+
+  text-align: center;
+}
+.searchlogo {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  left: 902px;
+  top: 22px;
+
+  font-family: "Font Awesome 5 Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+}
+.searching {
+  background-image: url("/Icons/header/searchlogo.png");
+  background-repeat: no-repeat;
+  background-size: 12px;
+  background-position: left;
+  background-position: 30px;
+
+  position: relative;
+  left: 61.25%;
+  right: 22.43%;
+  top: 21.43%;
+  bottom: 21.43%;
+
+  /* warm.orange */
+
+  border: 1px solid #fbc5a6;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: flex;
+}
+.search1 {
+  position: relative;
+  width: 34px;
+  left: 50px;
+  bottom: 0px;
+  top: 0px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 250;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  /* grey */
+
+  color: #b5b5b5;
+}
