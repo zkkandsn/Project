@@ -7,14 +7,24 @@
     <title>Food delivery</title>
     <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="/styles/slider.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/main.css" />
+    <link rel="stylesheet" href="/styles/body.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    
+    <!-- HEADER -->
     <header>
-      <div class="headmenu">
+      <div class="headmenu containerHeader">
         <div class="headlogo">
           <div class="headlogotext">
             <p>Food Delivery</p>
@@ -25,10 +35,13 @@
           <a class="hoolniitses" href="#">ХООЛНЫ ЦЭС</a>
           <a class="hurgeltiinbus" href="#">ХҮРГЭЛТИЙН БҮС</a>
         </div>
-        <div class="searching">
-            <p class="search1">Хайх</p>
-            <input id="searchInput" type="text" placeholder="" />
-        </div>   
+          <input
+            class="searching"
+            id="searchInput"
+            type="text"
+            placeholder="Хайх"
+          />
+        <div class="rigthside"></div>
         <div class="busket">
           <a class="sags" href="#">Сагс</a>
         </div>
@@ -36,17 +49,39 @@
           <a class="nevtreh" href="#">Нэвтрэх</a>
         </div>
       </div>
+      </div>
     </header>
-    <div class="slider"> 
-           <div class="foodpics">
-             <div class="food1"></div>
-             <div class="food2"></div>
-           </div>
-           <div class="mstars">
-             <h1>Mstars Food delivery</h1>
-             <hr>
-             <p class="amt">Хосгүй амтыг хормын дотор хүргэж өгнө.</p>
-          </div>
+    <!-- SLIDER -->
+    <div class="slider">
+      <div class="foodpics">
+        <div class="food1"></div>
+        <div class="food2"></div>
+      </div>
+      <div class="mstars">
+        <h1>Mstars Food delivery</h1>
+        <hr />
+        <p class="amt">Хосгүй амтыг хормын дотор хүргэж өгнө.</p>
+      </div>
     </div>
+    <!-- WEB MAIN -->
+    <div class="webmain">
+      <div class="fastdelivery">
+        <div class="fastdelivery1"></div>
+        <div class="fastdelivery2">
+          <p class="fast">Шуурхай хүргэлт</p>
+          <p class="delivery">30 минутанд таны гарт</p>
+        </div>
+        <div class="healthyfood"></div>
+        <div class="healthyfood1">
+          <div class="healthyfood2">
+            <!-- <p class="healthy">Эрүүл,баталгаат орц</p>
+            <p class="food">Хамгийн чанартайг танд.</p> -->
+          </div>
+        </div>
+      </div>
+      <div></div>
+      <div></div>
+    </div>
+
   </body>
 </html>

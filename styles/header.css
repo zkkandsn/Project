@@ -1,4 +1,6 @@
 .headmenu {
+  max-width: 100%;
+  margin: auto;
   width: 1440px;
   height: 56px;
   top: -0.4px;
@@ -8,6 +10,11 @@
   box-shadow: 0px 2px 4px rgba(241, 114, 40, 0.05);
   display: flex;
 }
+.containerHeader {
+  max-width: 1300px;
+  margin: auto;
+  background-color: aqua;
+}
 .headlogo {
   background-image: url("/Icons/header/iamage.png");
   background-repeat: no-repeat;
@@ -15,7 +22,7 @@
 
   position: relative;
   color: #f17228;
-  width: 109px;
+  width: 186px;
   left: 20px;
   top: 5px;
   display: flex;
@@ -27,8 +34,9 @@
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 17px;
-  left: 50px;
+  line-height: 14px;
+  display: flex;
+  margin-left: 60px;
 }
 .mainmenu a {
   margin: 10px;
@@ -91,50 +99,34 @@
   background-image: url("/Icons/header/searchlogo.png");
   background-repeat: no-repeat;
   background-size: 12px;
-  background-position: 15px;
-  /* warm.orange */
+  background-position: 10px;
+  padding-left: 25px;
 
   border: 1px solid #fbc5a6;
   box-sizing: border-box;
   border-radius: 10px;
   display: flex;
-  width:214px;
+  width: 214px;
+  height: 32px;
+  margin: 10px;
 }
-.search1 {
-  position: relative;
-  width: 34px;
-  left: 35px;
-  bottom: 0px;
-  top: 0px;
-
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 250;
-  font-size: 14px;
-  line-height: 21px;
+.rigthside {
   display: flex;
-  align-items: center;
-  /* grey */
-
-  color: #b5b5b5;
 }
-#searchInput{
-  border:none;
-}
-.busket{
+.busket {
   background-image: url("/Icons/header/busket\ icon.png");
   background-repeat: no-repeat;
   background-size: 25px;
   background-position: 4px;
   display: flex;
 }
-.sags{
+.sags {
   width: 37px;
   height: 16px;
   margin-left: 33px;
-  margin-top:15px;
-  
-  font-family: 'Poppins';
+  margin-top: 15px;
+
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -145,20 +137,20 @@
   color: #f17228;
   text-decoration: none;
 }
-.login{
+.login {
   background-image: url("/Icons/header/user\ icon.png");
   background-repeat: no-repeat;
   background-size: 20px;
   background-position: 4px;
   display: flex;
 }
-.nevtreh{
+.nevtreh {
   width: 37px;
   height: 16px;
   margin-left: 33px;
-  margin-top:15px;
-  
-  font-family: 'Poppins';
+  margin-top: 15px;
+
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
