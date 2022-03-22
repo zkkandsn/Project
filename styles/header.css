@@ -15,8 +15,8 @@
 
   position: relative;
   color: #f17228;
-  width: 126px;
-  left: 100px;
+  width: 109px;
+  left: 20px;
   top: 5px;
   display: flex;
 }
@@ -28,15 +28,17 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 17px;
-  left: 60px;
+  left: 50px;
 }
 .mainmenu a {
-  margin: 20px;
+  margin: 10px;
+  margin-top: 10px;
   text-decoration: none;
 }
 .mainmenu {
   display: flex;
-  margin-left: 100px;
+  margin-left: 50px;
+  margin-top: 10px;
 }
 .nuur {
   color: #f17228;
@@ -84,4 +86,86 @@
   /* identical to box height */
 
   text-align: center;
+}
+.searching {
+  background-image: url("/Icons/header/searchlogo.png");
+  background-repeat: no-repeat;
+  background-size: 12px;
+  background-position: 15px;
+  /* warm.orange */
+
+  border: 1px solid #fbc5a6;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: flex;
+  width:214px;
+}
+.search1 {
+  position: relative;
+  width: 34px;
+  left: 35px;
+  bottom: 0px;
+  top: 0px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 250;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  /* grey */
+
+  color: #b5b5b5;
+}
+#searchInput{
+  border:none;
+}
+.busket{
+  background-image: url("/Icons/header/busket\ icon.png");
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: 4px;
+  display: flex;
+}
+.sags{
+  width: 37px;
+  height: 16px;
+  margin-left: 33px;
+  margin-top:15px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  /* align-items: center;
+  text-align: center; */
+  color: #f17228;
+  text-decoration: none;
+}
+.login{
+  background-image: url("/Icons/header/user\ icon.png");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 4px;
+  display: flex;
+}
+.nevtreh{
+  width: 37px;
+  height: 16px;
+  margin-left: 33px;
+  margin-top:15px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  /* align-items: center;
+  text-align: center; */
+  color: #f17228;
+  text-decoration: none;
 }

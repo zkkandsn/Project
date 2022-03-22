@@ -1,0 +1,86 @@
+.slider{
+background-image: url("/Background/base.png");
+background-repeat: no-repeat;
+background-size: 2000px 496px;
+width: 1460px;
+height: 496px;
+margin-top: 10px;
+display: flex;
+}
+.foodpics{
+display: flex;
+width: 588px;
+height: 400px;
+margin-top: 63px;
+}
+.food1{
+background-image: url("/Foodpics/headfood.png");
+filter: drop-shadow(0px 100px 100px rgba(0, 0, 0, 15));
+background-repeat: no-repeat;
+position: absolute;
+width: 325px;
+height: 422px;
+display: flex;
+bottom:70px;
+left:50px
+}
+.food2{
+background-image: url("/Foodpics/headfood2.png");
+width: 345px;
+height: 311px;
+display: flex;
+position: relative;
+left: 182.75px;
+top: 64.46px;
+}
+.mstars{
+
+width: 486px;
+height: 216px;
+left: 834px;
+top: 152px;
+}
+
+h1{
+width: 384px;
+height: 120px;
+margin-top: 96px;
+margin-left:50px;
+margin-right: 222px;
+/* margin-bottom: 280px; */
+
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 55px;
+line-height: 90%;
+text-shadow: #00000026;
+/* or 49px */
+
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.01em;
+
+/* Primary */
+
+color: #F17228;
+}
+.amt {
+width: 384px;
+height: 64px;
+margin-left: 50px;
+
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.01em;
+color: #4D2000;
+}
