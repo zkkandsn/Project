@@ -21,7 +21,7 @@
   width: 325px;
   height: 422px;
   display: flex;
-  left: 50px;
+  left: 150px;
 }
 .food2 {
   background-image: url("/Foodpics/headfood2.png");
@@ -29,24 +29,24 @@
   height: 311px;
   display: flex;
   position: relative;
-  left: 182.75px;
+  left: 280.75px;
   top: 50.46px;
 }
 .mstars {
-  width: 486px;
-  height: 216px;
-  left: 834px;
-  top: 152px;
+  /* width: 486px; */
+  /* height: 216px; */
+  /* left: 1000px; */
+  /* top: 232px; */
+  /* display: flex; */
 }
 
 h1 {
   width: 384px;
   height: 120px;
   margin-top: 96px;
-  margin-left: 50px;
+  margin-left: 250px;
   margin-right: 222px;
   /* margin-bottom: 280px; */
-
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -54,28 +54,24 @@ h1 {
   line-height: 90%;
   text-shadow: #00000026;
   /* or 49px */
-
   display: flex;
   align-items: center;
   text-align: right;
   letter-spacing: 0.01em;
 
   /* Primary */
-
   color: #f17228;
 }
 .amt {
   width: 384px;
   height: 64px;
-  margin-left: 50px;
-
+  margin-left: 250px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
   line-height: 120%;
   /* or 26px */
-
   display: flex;
   align-items: center;
   text-align: right;
