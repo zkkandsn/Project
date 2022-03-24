@@ -6,7 +6,8 @@
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
   border-radius: 30px;
   margin-left: 120px;
-  margin-top: 48px;
+  margin-top: 25px;
+  justify-content: space-around;
 }
 .fastdelivery {
   display: flex;
@@ -15,6 +16,7 @@
   position: static;
   width: 286px;
   height: 64px;
+  margin: 33px;
 }
 .fastdelivery1 {
   background-image: url("/Icons/webmain/time.png");
@@ -40,6 +42,88 @@
   color: #1d1d1f;
 }
 .delivery {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  margin-left: 5px;
+  color: #1d1d1f;
+}
+.healthyfood {
+  display: flex;
+  padding: 0px;
+
+  position: static;
+  width: 286px;
+  height: 64px;
+  margin: 33px;
+  margin-left: 20px;
+}
+.healthyfood1 {
+  background-image: url("/Icons/webmain/food.png");
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 15px;
+  display: flex;
+  position: static;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 215, 191, 0.28);
+  border-radius: 10px;
+}
+.healthy {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  margin-left: 5px;
+  color: #1d1d1f;
+}
+.food {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  margin-left: 5px;
+  color: #1d1d1f;
+}
+.newchoice {
+  display: flex;
+  padding: 0px;
+
+  position: static;
+  width: 286px;
+  height: 64px;
+  margin: 33px;
+  margin-left: 20px;
+}
+.newchoice1 {
+  background-image: url("/Icons/webmain/book.png");
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 15px;
+  display: flex;
+  position: static;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 215, 191, 0.28);
+  border-radius: 10px;
+}
+.new {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  margin-left: 5px;
+  color: #1d1d1f;
+}
+.choice {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
