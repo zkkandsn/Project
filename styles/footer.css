@@ -1,0 +1,49 @@
+.footer {
+  background-image: url("/Background/Footer/base.png");
+  width: 1440px;
+  height: 384px;
+  display: flex;
+  position: relative;
+  gap: 47px;
+}
+.footerlogo {
+  margin-top: 24px;
+  margin-left: 120px;
+  margin-right: 1280px;
+  margin-bottom: 320px;
+  position: relative;
+  color: #f17228;
+  width: 186px;
+  display: flex;
+}
+.footerlogo p {
+  position: static;
+  width: 126px;
+  height: 30px;
+  margin-left: 3px;
+  margin-top: 0px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #fdfdfd;
+}
+.footermenubar {
+  display: flex;
+  width: 180px;
+  height: 112px;
+  flex-direction: column;
+  margin-left: 100px;
+}
+.footermenubar a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 33px;
+  text-decoration: none;
+
+  color: #ffffff;
+}
