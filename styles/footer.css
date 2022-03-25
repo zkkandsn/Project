@@ -1,19 +1,17 @@
-.footer {
+.footermenu {
   background-image: url("/Background/Footer/base.png");
   width: 1440px;
   height: 384px;
+}
+.footertop {
   display: flex;
-  position: relative;
-  gap: 47px;
 }
 .footerlogo {
   margin-top: 24px;
   margin-left: 120px;
-  margin-right: 1280px;
-  margin-bottom: 320px;
   position: relative;
-  color: #f17228;
-  width: 186px;
+  width: 176px;
+  height: 40px;
   display: flex;
 }
 .footerlogo p {
@@ -36,6 +34,7 @@
   height: 112px;
   flex-direction: column;
   margin-left: 100px;
+  margin-top: 24px;
 }
 .footermenubar a {
   font-family: "Poppins";
@@ -43,7 +42,84 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 33px;
-  text-decoration: none;
 
+  color: #ffffff;
+}
+.footerbottom {
+  display: flex;
+  position: static;
+  width: 1440px;
+  height: 150px;
+}
+.footerhr {
+  width: 1200px;
+  height: 0px;
+  border: 1px solid #ffffff;
+  margin-top: 120px;
+}
+.social {
+  width: 180px;
+  height: 65px;
+  margin-left: 120px;
+}
+.social p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 18px;
+  width: 175px;
+  height: 18px;
+
+  color: #ffffff;
+}
+.social img {
+  width: 20px;
+  height: 23px;
+  flex-direction: column;
+  align-items: center;
+  padding: 3px;
+}
+.footerbottomlogo {
+  display: flex;
+  color: #ffffff;
+  width: 20x;
+  height: 23px;
+  justify-content: space-between;
+}
+.terms {
+  display: flex;
+  width: 282px;
+  height: 16px;
+  margin-top: 15px;
+  margin-left: 400px;
+}
+.terms a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  margin-left: 20px;
+  width: 200px;
+  height: 16px;
+}
+.copyright {
+  width: 236px;
+  height: 40px;
+  margin-left: 104px;
+  display: flex;
+  flex-direction: column;
+}
+.copyright p {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
   color: #ffffff;
 }
