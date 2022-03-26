@@ -25,70 +25,82 @@
   <body>
     <!-- HEADER -->
     <header>
-      <div class="headmenu containerHeader">
-        <div class="headlogo">
-          <div class="headlogotext">
+      <div class="headmenu contents">
+        <div class="headcontainer">
+          <div class="headlogo">
+            <img src="./pictures/Icons/header/iamage.svg" alt="" />
             <p>Food Delivery</p>
           </div>
         </div>
         <div class="mainmenu">
-          <a class="nuur" href="#">НҮҮР</a>
-          <a class="hoolniitses" href="#">ХООЛНЫ ЦЭС</a>
-          <a class="hurgeltiinbus" href="#">ХҮРГЭЛТИЙН БҮС</a>
+          <a id="nuur" href="#">НҮҮР</a>
+          <a href="#">ХООЛНЫ ЦЭС</a>
+          <a href="#">ХҮРГЭЛТИЙН БҮС</a>
         </div>
-        <input
-          class="searching"
-          id="searchInput"
-          type="text"
-          placeholder="Хайх"
-        />
-        <div class="rigthside"></div>
-        <div class="busket">
-          <a class="sags" href="#">Сагс</a>
+        <div class="search">
+          <input
+            class="searching"
+            id="searchInput"
+            type="text"
+            placeholder="Хайх"
+          />
         </div>
-        <div class="login">
-          <a class="nevtreh" href="#">Нэвтрэх</a>
+        <div class="rigthside">
+          <div class="busket">
+            <img src="./pictures/Icons/header/busket icon.svg" alt="" />
+            <a href="#">Сагс</a>
+          </div>
+          <div class="login">
+            <img src="./pictures/Icons/header/user icon.svg" alt="" />
+            <a href="#">Нэвтрэх</a>
+          </div>
         </div>
       </div>
     </header>
     <!-- SLIDER -->
     <div class="slider">
-      <div class="foodpics">
-        <div class="food1"></div>
-        <div class="food2"></div>
-      </div>
-      <div class="mstars">
-        <h1>Mstars Food delivery</h1>
-        <hr class="sliderhr" />
-        <p class="amt">Хосгүй амтыг хормын дотор хүргэж өгнө.</p>
+      <div class="slider1 contents">
+        <div class="foodpics">
+          <div class="food1">
+            <img src="pictures/Foodpics/slider/meal pic.png" alt="headfood1" />
+          </div>
+        </div>
+        <div class="mstars">
+          <h1>Mstars Food delivery</h1>
+          <hr class="sliderhr" />
+          <p class="amt">Хосгүй амтыг хормын дотор хүргэж өгнө.</p>
+          <span>&#8594;</span>
+        </div>
       </div>
     </div>
     <!-- WEB MAIN -->
-    <div class="webmain">
-      <div class="fastdelivery">
-        <div class="fastdelivery1"></div>
-        <div class="fastdelivery2">
-          <h3 class="fast">Шуурхай хүргэлт</h3>
-          <p class="delivery">30 минутанд таны гарт.</p>
+    <div class="webmain contents">
+      <div class="webmaininside contents">
+        <div class="fastdelivery">
+          <div class="fastdelivery1"></div>
+          <div class="fastdelivery2">
+            <h3 class="fast">Шуурхай хүргэлт</h3>
+            <p class="delivery">30 минутанд таны гарт.</p>
+          </div>
         </div>
-      </div>
-      <div class="healthyfood">
-        <div class="healthyfood1"></div>
-        <div class="healthyfood2">
-          <h3 class="healthy">Эрүүл,баталгаат орц</h3>
-          <p class="food">Хамгийн чанартайг танд.</p>
+        <div class="healthyfood">
+          <div class="healthyfood1"></div>
+          <div class="healthyfood2">
+            <h3 class="healthy">Эрүүл,баталгаат орц</h3>
+            <p class="food">Хамгийн чанартайг танд.</p>
+          </div>
         </div>
-      </div>
-      <div class="newchoice">
-        <div class="newchoice1"></div>
-        <div class="newchoice2">
-          <h3 class="new">Өргөн сонголт</h3>
-          <p class="choice">Хамгийн онцгойг танд.</p>
+        <div class="newchoice">
+          <div class="newchoice1"></div>
+          <div class="newchoice2">
+            <h3 class="new">Өргөн сонголт</h3>
+            <p class="choice">Хамгийн онцгойг танд.</p>
+          </div>
         </div>
       </div>
     </div>
     <!-- SALE -->
-    <div class="sale">
+    <div class="sale contents">
       <div class="saletitle">
         <div class="sales">
           <div class="sales1"></div>
@@ -97,58 +109,98 @@
           </div>
         </div>
         <div class="saleall">
-          <a href="#">Бүгдийг харах ></a>
+          <a href="#">Бүгдийг харах <span>&#62;</span></a>
         </div>
       </div>
-      <div class="salefoods">
-        <div class="salefood1">
+      <div class="cards">
+        <div class="card">
+          <div id="cardHover">
+            <img
+              src="./pictures/Foodpics/Hover/basket.svg"
+              alt=""
+              id="hoverPic"
+            />
+          </div>
           <div class="salefoodimage">
-            <img src="/Foodpics/Salefood/salefood1.png" alt="salefood1" />
+            <img
+              src="pictures/Foodpics/Salefood/salefood1.png"
+              alt="salefood1"
+            />
             <span><p>20%</p></span>
           </div>
-          <div class="salefood1text"><p>Зайрмаг</p></div>
-          <div class="salefood1prices">
-            <p class="salefood1pricesale">4,760₮</p>
-            <p class="salefood1price">6,800₮</p>
+          <div class="cardtext"><p>Зайрмаг</p></div>
+          <div class="cardprices">
+            <p class="cardpricesale">4,760₮</p>
+            <p class="cardprice">6,800₮</p>
           </div>
         </div>
-        <div class="salefood1">
+        <div class="card">
+          <div id="cardHover">
+            <img
+              src="./pictures/Foodpics/Hover/basket.svg"
+              alt=""
+              id="hoverPic"
+            />
+          </div>
           <div class="salefoodimage">
-            <img src="/Foodpics/Salefood/salefood2.png" alt="salefood2" />
+            <img
+              src="pictures/Foodpics/Salefood/salefood2.png"
+              alt="salefood2"
+            />
             <span><p>20%</p></span>
           </div>
-          <div class="salefood1text"><p>Панкейк</p></div>
-          <div class="salefood1prices">
-            <p class="salefood1pricesale">4,800₮</p>
-            <p class="salefood1price">6,800₮</p>
+          <div class="cardtext"><p>Панкейк</p></div>
+          <div class="cardprices">
+            <p class="cardpricesale">4,800₮</p>
+            <p class="cardprice">6,800₮</p>
           </div>
         </div>
-        <div class="salefood1">
+        <div class="card">
+          <div id="cardHover">
+            <img
+              src="./pictures/Foodpics/Hover/basket.svg"
+              alt=""
+              id="hoverPic"
+            />
+          </div>
           <div class="salefoodimage">
-            <img src="/Foodpics/Salefood/salefood3.png" alt="salefood3" />
+            <img
+              src="pictures/Foodpics/Salefood/salefood3.png"
+              alt="salefood3"
+            />
             <span><p>20%</p></span>
           </div>
-          <div class="salefood1text"><p>Өглөөний хоол</p></div>
-          <div class="salefood1prices">
-            <p class="salefood1pricesale">4,800₮</p>
-            <p class="salefood1price">6,800₮</p>
+          <div class="cardtext"><p>Өглөөний хоол</p></div>
+          <div class="cardprices">
+            <p class="cardpricesale">4,800₮</p>
+            <p class="cardprice">6,800₮</p>
           </div>
         </div>
-        <div class="salefood1">
+        <div class="card">
+          <div id="cardHover">
+            <img
+              src="./pictures/Foodpics/Hover/basket.svg"
+              alt=""
+              id="hoverPic"
+            />
+          </div>
           <div class="salefoodimage">
-            <img src="/Foodpics/Salefood/salefood4.png" alt="salefood4" />
+            <img
+              src="pictures/Foodpics/Salefood/salefood4.png"
+              alt="salefood4"
+            />
             <span><p>20%</p></span>
           </div>
-          <div class="salefood1text"><p>Банана сендвич</p></div>
-          <div class="salefood1prices">
-            <p class="salefood1pricesale">4,800₮</p>
-            <p class="salefood1price">6,800₮</p>
+          <div class="cardtext"><p>Банана сендвич</p></div>
+          <div class="cardprices">
+            <p class="cardpricesale">4,800₮</p>
+            <p class="cardprice">6,800₮</p>
           </div>
         </div>
       </div>
     </div>
     <!-- MAINFOOD -->
-    <div class="sale">
+    <div class="sale contents">
       <div class="saletitle">
         <div class="sales">
           <div class="sales1"></div>
@@ -157,50 +209,90 @@
           </div>
         </div>
         <div class="saleall">
-          <a href="#">Бүгдийг харах ></a>
+          <a href="#">Бүгдийг харах <span>&#62;</span></a>
         </div>
       </div>
-      <div class="salefoods">
-        <div class="salefood1">
-          <div class="salefoodimage">
-            <img src="/Foodpics/Mainfood/mainfood1.png" alt="mainfood1" />
+      <div class="cards">
+        <div class="card">
+          <div id="cardHover">
+            <img
+              src="./pictures/Foodpics/Hover/basket.svg"
+              alt=""
+              id="hoverPic"
+            />
           </div>
-          <div class="salefood1text"><p>Салмон загас</p></div>
-          <div class="salefood1prices">
-            <p class="salefood1pricesale">11,800₮</p>
+          <div class="salefoodimage">
+            <img
+              src="pictures/Foodpics/Mainfood/mainfood1.png"
+              alt="mainfood1"
+            />
+          </div>
+          <div class="cardtext"><p>Салмон загас</p></div>
+          <div class="cardprices">
+            <p class="cardpricesale">11,800₮</p>
           </div>
         </div>
-        <div class="salefood1">
-          <div class="salefoodimage">
-            <img src="/Foodpics/Mainfood/mainfood2.png" alt="mainfood2" />
+        <div class="card">
+          <div id="cardHover">
+            <img
+              src="./pictures/Foodpics/Hover/basket.svg"
+              alt=""
+              id="hoverPic"
+            />
           </div>
-          <div class="salefood1text"><p>Бөөрөнхий мах</p></div>
-          <div class="salefood1prices">
-            <p class="salefood1pricesale">14,000₮</p>
+          <div class="salefoodimage">
+            <img
+              src="pictures/Foodpics/Mainfood/mainfood2.png"
+              alt="mainfood2"
+            />
+          </div>
+          <div class="cardtext"><p>Бөөрөнхий мах</p></div>
+          <div class="cardprices">
+            <p class="cardpricesale">14,000₮</p>
           </div>
         </div>
-        <div class="salefood1">
-          <div class="salefoodimage">
-            <img src="/Foodpics/Mainfood/mainfood3.png" alt="mainfood3" />
+        <div class="card">
+          <div id="cardHover">
+            <img
+              src="./pictures/Foodpics/Hover/basket.svg"
+              alt=""
+              id="hoverPic"
+            />
           </div>
-          <div class="salefood1text"><p>Самрын нухаш</p></div>
-          <div class="salefood1prices">
-            <p class="salefood1pricesale">9,800₮</p>
+          <div class="salefoodimage">
+            <img
+              src="pictures/Foodpics/Mainfood/mainfood3.png"
+              alt="mainfood3"
+            />
+          </div>
+          <div class="cardtext"><p>Самрын нухаш</p></div>
+          <div class="cardprices">
+            <p class="cardpricesale">9,800₮</p>
           </div>
         </div>
-        <div class="salefood1">
-          <div class="salefoodimage">
-            <img src="/Foodpics/Mainfood/mainfood4.png" alt="mainfood4" />
+        <div class="card">
+          <div id="cardHover">
+            <img
+              src="./pictures/Foodpics/Hover/basket.svg"
+              alt=""
+              id="hoverPic"
+            />
           </div>
-          <div class="salefood1text"><p>Чикен</p></div>
-          <div class="salefood1prices">
-            <p class="salefood1pricesale">14,000₮</p>
+          <div class="salefoodimage">
+            <img
+              src="pictures/Foodpics/Mainfood/mainfood4.png"
+              alt="mainfood4"
+            />
+          </div>
+          <div class="cardtext"><p>Чикен</p></div>
+          <div class="cardprices">
+            <p class="cardpricesale">14,000₮</p>
           </div>
         </div>
       </div>
     </div>
     <!-- SALAD AND SNACKS-->
-    <div class="sale">
+    <div class="sale contents">
       <div class="saletitle">
         <div class="sales">
           <div class="sales1"></div>
@@ -209,50 +301,78 @@
           </div>
         </div>
         <div class="saleall">
-          <a href="#">Бүгдийг харах ></a>
+          <a href="#">Бүгдийг харах <span>&#62;</span></a>
         </div>
       </div>
-      <div class="salefoods">
-        <div class="salefood1">
-          <div class="salefoodimage">
-            <img src="/Foodpics/Salads/salad1.png" alt="saladfood1" />
+      <div class="cards">
+        <div class="card">
+          <div id="cardHover">
+            <img
+              src="./pictures/Foodpics/Hover/basket.svg"
+              alt=""
+              id="hoverPic"
+            />
           </div>
-          <div class="salefood1text"><p>Детокс салад</p></div>
-          <div class="salefood1prices">
-            <p class="salefood1pricesale">6,800₮</p>
+          <div class="salefoodimage">
+            <img src="pictures/Foodpics/Salads/salad1.png" alt="saladfood1" />
+          </div>
+          <div class="cardtext"><p>Детокс салад</p></div>
+          <div class="cardsprices">
+            <p class="cardricesale">6,800₮</p>
           </div>
         </div>
-        <div class="salefood1">
-          <div class="salefoodimage">
-            <img src="/Foodpics/Salads/salad2.png" alt="saladfood2" />
+        <div class="card">
+          <div id="cardHover">
+            <img
+              src="./pictures/Foodpics/Hover/basket.svg"
+              alt=""
+              id="hoverPic"
+            />
           </div>
-          <div class="salefood1text"><p>Кобб салад</p></div>
-          <div class="salefood1prices">
-            <p class="salefood1pricesale">6,800₮</p>
+          <div class="salefoodimage">
+            <img src="pictures/Foodpics/Salads/salad2.png" alt="saladfood2" />
+          </div>
+          <div class="cardtext"><p>Кобб салад</p></div>
+          <div class="cardprices">
+            <p class="cardpricesale">6,800₮</p>
           </div>
         </div>
-        <div class="salefood1">
-          <div class="salefoodimage">
-            <img src="/Foodpics/Salads/salad3.png" alt="saladfood3" />
+        <div class="card">
+          <div id="cardHover">
+            <img
+              src="./pictures/Foodpics/Hover/basket.svg"
+              alt=""
+              id="hoverPic"
+            />
           </div>
-          <div class="salefood1text"><p>Авокадо салад</p></div>
-          <div class="salefood1prices">
-            <p class="salefood1pricesale">6,800₮</p>
+          <div class="salefoodimage">
+            <img src="pictures/Foodpics/Salads/salad3.png" alt="saladfood3" />
+          </div>
+          <div class="cardtext"><p>Авокадо салад</p></div>
+          <div class="cardprices">
+            <p class="cardpricesale">6,800₮</p>
           </div>
         </div>
-        <div class="salefood1">
-          <div class="salefoodimage">
-            <img src="/Foodpics/Salads/salad4.png" alt="saladfood4" />
+        <div class="card">
+          <div id="cardHover">
+            <img
+              src="./pictures/Foodpics/Hover/basket.svg"
+              alt=""
+              id="hoverPic"
+            />
           </div>
-          <div class="salefood1text"><p>Сендвич</p></div>
-          <div class="salefood1prices">
-            <p class="salefood1pricesale">4,800₮</p>
+          <div class="salefoodimage">
+            <img src="pictures/Foodpics/Salads/salad4.png" alt="saladfood4" />
+          </div>
+          <div class="cardtext"><p>Сендвич</p></div>
+          <div class="cardprices">
+            <p class="cardpricesale">4,800₮</p>
           </div>
         </div>
       </div>
     </div>
     <!-- DESSERTS -->
-    <div class="sale">
+    <div class="sale contents">
       <div class="saletitle">
         <div class="sales">
           <div class="sales1"></div>
@@ -261,53 +381,82 @@
           </div>
         </div>
         <div class="saleall">
-          <a href="#">Бүгдийг харах ></a>
+          <a href="#">Бүгдийг харах <span>&#62;</span></a>
         </div>
       </div>
-      <div class="salefoods">
-        <div class="salefood1">
-          <div class="salefoodimage">
-            <img src="/Foodpics/Dessert/dessert1.png" alt="dessert1" />
+      <div class="cards">
+        <div class="card">
+          <div id="cardHover">
+            <img
+              src="./pictures/Foodpics/Hover/basket.svg"
+              alt=""
+              id="hoverPic"
+            />
           </div>
-          <div class="salefood1text"><p>Донатс</p></div>
-          <div class="salefood1prices">
-            <p class="salefood1pricesale">5,800₮</p>
+          <div class="salefoodimage">
+            <img src="pictures/Foodpics/Dessert/dessert1.png" alt="dessert1" />
+          </div>
+          <div class="cardtext"><p>Донатс</p></div>
+          <div class="cardprices">
+            <p class="cardpricesale">5,800₮</p>
           </div>
         </div>
-        <div class="salefood1">
-          <div class="salefoodimage">
-            <img src="/Foodpics/Dessert/dessert2.png" alt="dessert2" />
+        <div class="card">
+          <div id="cardHover">
+            <img
+              src="./pictures/Foodpics/Hover/basket.svg"
+              alt=""
+              id="hoverPic"
+            />
           </div>
-          <div class="salefood1text"><p>Орео дессерт</p></div>
-          <div class="salefood1prices">
-            <p class="salefood1pricesale">7,800₮</p>
+          <div class="salefoodimage">
+            <img src="pictures/Foodpics/Dessert/dessert2.png" alt="dessert2" />
+          </div>
+          <div class="cardtext"><p>Орео дессерт</p></div>
+          <div class="cardprices">
+            <p class="cardpricesale">7,800₮</p>
           </div>
         </div>
-        <div class="salefood1">
-          <div class="salefoodimage">
-            <img src="/Foodpics/Dessert/dessert3.png" alt="dessert3" />
+        <div class="card">
+          <div id="cardHover">
+            <img
+              src="./pictures/Foodpics/Hover/basket.svg"
+              alt=""
+              id="hoverPic"
+            />
           </div>
-          <div class="salefood1text"><p>Вафли</p></div>
-          <div class="salefood1prices">
-            <p class="salefood1pricesale">5,800₮</p>
+          <div class="salefoodimage">
+            <img src="pictures/Foodpics/Dessert/dessert3.png" alt="dessert3" />
+          </div>
+          <div class="cardtext"><p>Вафли</p></div>
+          <div class="cardprices">
+            <p class="cardpricesale">5,800₮</p>
           </div>
         </div>
-        <div class="salefood1">
-          <div class="salefoodimage">
-            <img src="/Foodpics/Dessert/dessert4.png" alt="dessert4" />
+        <div class="card">
+          <div id="cardHover">
+            <img
+              src="./pictures/Foodpics/Hover/basket.svg"
+              alt=""
+              id="hoverPic"
+            />
           </div>
-          <div class="salefood1text"><p>Макарон</p></div>
-          <div class="salefood1prices">
-            <p class="salefood1pricesale">3,800₮</p>
+          <div class="salefoodimage">
+            <img src="pictures/Foodpics/Dessert/dessert4.png" alt="dessert4" />
+          </div>
+          <div class="cardtext"><p>Макарон</p></div>
+          <div class="cardprices">
+            <p class="cardpricesale">3,800₮</p>
           </div>
         </div>
       </div>
     </div>
+    <!-- FOOTER -->
     <footer>
-      <div class="footermenu containerFooter">
+      <div class="footermenu contents">
         <div class="footertop">
           <div class="footerlogo">
-            <img src="/Icons/Footer/logo.image.svg" alt="" />
+            <img src="pictures/Icons/Footer/logo.image.svg" alt="" />
             <p>Food delivery</p>
           </div>
           <div class="footermenubar">
@@ -326,9 +475,12 @@
           <div class="social">
             <p>Бидэнтэй нэгдээрэй</p>
             <!-- <div class="footerbottomlogo"> -->
-            <img src="/Icons/Footer/facebook.svg" alt="facebooklogo" />
-            <img src="/Icons/Footer/instagram.svg" alt="instagramlogo" />
-            <img src="/Icons/Footer/twitter.svg" alt="twitterlogo" />
+            <img src="pictures/Icons/Footer/facebook.svg" alt="facebooklogo" />
+            <img
+              src="pictures/Icons/Footer/instagram.svg"
+              alt="instagramlogo"
+            />
+            <img src="pictures/Icons/Footer/twitter.svg" alt="twitterlogo" />
           </div>
           <div class="terms">
             <a href="#">Үйлчилгээний нөхцөл</a>

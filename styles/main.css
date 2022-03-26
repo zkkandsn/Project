@@ -1,12 +1,22 @@
 .webmain {
+  height: 248px;
+  background: linear-gradient(
+    179.24deg,
+    #f17228 -90.18%,
+    rgba(255, 255, 255, 0) 41.19%
+  );
+  display: flex;
+  margin-top: 25px;
+  justify-content: center;
+  justify-content: space-between;
+}
+.webmaininside {
   display: flex;
   width: 1200px;
   height: 152px;
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
   border-radius: 30px;
-  margin-left: 120px;
-  margin-top: 25px;
   justify-content: space-around;
 }
 .fastdelivery {
@@ -19,7 +29,7 @@
   margin: 33px;
 }
 .fastdelivery1 {
-  background-image: url("/Icons/webmain/time.svg");
+  background-image: url("../pictures/Icons/webmain/time.svg");
   background-size: 40px 40px;
   background-repeat: no-repeat;
   background-position: center;
@@ -61,7 +71,7 @@
   margin-left: 20px;
 }
 .healthyfood1 {
-  background-image: url("/Icons/webmain/food.svg");
+  background-image: url("../pictures/Icons/webmain/food.svg");
   background-size: 40px 40px;
   background-repeat: no-repeat;
   background-position: center;
@@ -102,7 +112,7 @@
   margin-left: 20px;
 }
 .newchoice1 {
-  background-image: url("/Icons/webmain/book.svg");
+  background-image: url("../pictures/Icons/webmain/book.svg");
   background-size: 40px 40px;
   background-repeat: no-repeat;
   background-position: center;
@@ -131,4 +141,184 @@
   line-height: 21px;
   margin-left: 5px;
   color: #1d1d1f;
+}
+.contents {
+  max-width: 1440px;
+  margin: auto;
+}
+/* FOODMENU */
+.sale {
+  position: static;
+  width: 1200px;
+  height: 448px;
+  margin-left: 120px;
+  margin-top: 25px;
+}
+.saletitle {
+  position: static;
+  width: 1200px;
+  height: 88px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.sales1 {
+  position: static;
+  width: 11px;
+  height: 30px;
+  background: #f17228;
+  margin: 20px;
+}
+.hymdral {
+  width: 251px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: -50px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  color: #171717;
+}
+.sales {
+  position: static;
+  width: 251px;
+  height: 30px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #171717;
+}
+.saleall {
+  width: 180px;
+  height: 48px;
+  background: #f17228;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.saleall a {
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.cards {
+  width: 1200px;
+  height: 304px;
+  display: flex;
+  justify-content: space-around;
+}
+.cards h2 {
+  margin-left: 12px;
+}
+.cards p {
+  margin-left: 10px;
+}
+.card {
+  width: 282px;
+  height: 304px;
+  background: #fefefe;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+}
+.salefoodimage span {
+  position: absolute;
+  width: 75px;
+  height: 43px;
+  margin-left: -75px;
+  border-radius: 0px 8px 0px 10px;
+  background-color: #f17228;
+  z-index: 0;
+}
+.salefoodimage span p {
+  position: absolute;
+  width: 40px;
+  height: 18px;
+  left: 8px;
+  top: -6px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+.salefoodimage {
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 252px;
+  height: 208px;
+}
+.cardtext {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 0px;
+}
+.cardprices {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 0px;
+  width: 60px;
+  height: 27px;
+  display: flex;
+}
+.cardpricesale {
+  color: #f17228;
+}
+.cardprice {
+  color: #171717;
+  text-decoration-line: line-through;
+  margin-left: 10px;
+}
+.saleall span {
+  width: 15px;
+  height: 30px;
+  font-size: 15px;
+}
+#cardHover {
+  width: 282px;
+  height: 304px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00000070;
+  border-radius: 10px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+#cardHover:hover {
+  opacity: 1;
+  transition: opacity 1s;
+}
+.contents {
+  max-width: 1440px;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }

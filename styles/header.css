@@ -1,30 +1,31 @@
 .headmenu {
-  width: 1440px;
   height: 56px;
-  top: -0.4px;
-  gap: 47px;
-  position: relative;
   background-color: #fefefe;
   box-shadow: 0px 2px 4px rgba(241, 114, 40, 0.05);
   display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
 }
-.containerHeader {
-  max-width: 1300px;
+.contents {
+  max-width: 1440px;
   margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.headcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
 }
 .headlogo {
-  background-image: url("/Icons/header/iamage.svg");
-  background-repeat: no-repeat;
-  background-size: 50px 50px;
-
-  position: relative;
+  padding: 10px;
   color: #f17228;
   width: 186px;
-  left: 20px;
-  top: 5px;
   display: flex;
 }
-.headlogotext {
+.headlogo p {
   color: #f17228;
   position: relative;
   font-family: "Poppins";
@@ -33,25 +34,33 @@
   font-size: 18px;
   line-height: 14px;
   display: flex;
-  margin-left: 60px;
 }
 .mainmenu a {
-  margin: 10px;
-  margin-top: 10px;
   text-decoration: none;
+  width: 150px;
+  height: 24px;
+  color: #000000;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: center;
 }
 .mainmenu {
   display: flex;
-  margin-left: 50px;
-  margin-top: 10px;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
 }
-.nuur {
+#nuur {
   color: #f17228;
   position: static;
   width: 43px;
   height: 24px;
-  left: 0px;
-  top: 0px;
 
   font-family: "Poppins";
   font-style: normal;
@@ -62,38 +71,14 @@
 
   text-align: center;
 }
-.hoolniitses {
-  position: static;
-  width: 150px;
-  height: 24px;
-  color: #000000;
-
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height */
-
+.search {
+  display: flex;
+  align-items: center;
   text-align: center;
-}
-.hurgeltiinbus {
-  position: static;
-  width: 150px;
-  height: 24px;
-  color: #000000;
-
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height */
-
-  text-align: center;
+  justify-content: space-between;
 }
 .searching {
-  background-image: url("/Icons/header/searchlogo.svg");
+  background-image: url("../pictures/Icons/header/searchlogo.svg");
   background-repeat: no-repeat;
   background-size: 12px;
   background-position: 10px;
@@ -105,56 +90,44 @@
   display: flex;
   width: 214px;
   height: 32px;
-  margin: 10px;
 }
 .rigthside {
   display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+}
+.rigthside a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #f17228;
+  text-decoration: none;
+}
+.rigthside img {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
 }
 .busket {
-  background-image: url("/Icons/header/busket\ icon.svg");
-  background-repeat: no-repeat;
-  background-size: 25px;
-  background-position: 4px;
   display: flex;
-}
-.sags {
-  width: 37px;
-  height: 16px;
-  margin-left: 33px;
-  margin-top: 15px;
-
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  display: flex;
-  /* align-items: center;
-  text-align: center; */
-  color: #f17228;
-  text-decoration: none;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
 }
 .login {
-  background-image: url("/Icons/header/user\ icon.svg");
-  background-repeat: no-repeat;
-  background-size: 20px;
-  background-position: 4px;
   display: flex;
-}
-.nevtreh {
-  width: 37px;
-  height: 16px;
-  margin-left: 33px;
-  margin-top: 15px;
-
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  display: flex;
-  /* align-items: center;
-  text-align: center; */
-  color: #f17228;
-  text-decoration: none;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
 }

@@ -1,0 +1,75 @@
+.main {
+  box-sizing: border-box;
+  height: 500px;
+  display: flex;
+  background: #fdfdfd;
+  justify-content: center;
+  text-align: center;
+}
+.logincontainer {
+  width: 384px;
+  height: 440px;
+}
+.title {
+  display: flex;
+  padding: 0px;
+  width: 180px;
+  height: 32px;
+}
+.line {
+  flex-direction: row;
+  align-items: flex-start;
+  width: 9px;
+  height: 32px;
+  background: #f17228;
+  display: flex;
+}
+
+.line h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  margin-left: 15px;
+  margin-top: -0px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #171717;
+}
+.main label {
+  justify-content: flex-start;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 250;
+  font-size: 14px;
+  line-height: 140%;
+
+  display: flex;
+  align-items: center;
+
+  color: #171717;
+}
+.password {
+  background-image: url(/pictures/Icons/login/hide.svg);
+  width: 18px;
+  height: 15px;
+}
+.main input {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 11px 20px;
+  position: static;
+  width: 359px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #ffd7bf;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+.email {
+  /* display: block; */
+}
