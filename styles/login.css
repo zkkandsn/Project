@@ -4,11 +4,12 @@
   display: flex;
   background: #fdfdfd;
   justify-content: center;
-  text-align: center;
 }
 .logincontainer {
-  width: 384px;
+  width: 350px;
   height: 440px;
+
+  margin: 25px;
 }
 .title {
   display: flex;
@@ -45,24 +46,22 @@
   font-style: normal;
   font-weight: 250;
   font-size: 14px;
-  line-height: 140%;
-
   display: flex;
   align-items: center;
 
   color: #171717;
 }
-.password {
+#password {
   background-image: url(/pictures/Icons/login/hide.svg);
-  width: 18px;
-  height: 15px;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 330px;
+  display: flex;
 }
 .main input {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
   padding: 11px 20px;
-  position: static;
   width: 359px;
   height: 40px;
   background: #ffffff;
@@ -70,6 +69,68 @@
   box-sizing: border-box;
   border-radius: 16px;
 }
-.email {
-  /* display: block; */
+form {
+  width: 350px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.center {
+  width: 350px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.center a {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  align-items: center;
+  color: #171717;
+}
+.loginbutton {
+  width: 359px;
+  height: 48px;
+  background: #f17228;
+  border-radius: 20px;
+  border: #f17228;
+  /* text */
+  color: #ffffff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+.buttons {
+  width: 350px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.buttons a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 250;
+  font-size: 12px;
+  color: #828282;
+  text-align: center;
+}
+#signup {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* box */
+  background: #ffffff;
+  border: 1px solid #f17228;
+  box-sizing: border-box;
+  border-radius: 20px;
+  color: #f17228;
 }

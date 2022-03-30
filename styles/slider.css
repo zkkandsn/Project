@@ -1,11 +1,8 @@
 .slider {
   background-image: url("../pictures/Background/Header/base.png");
   background-repeat: no-repeat;
-  /* background-size: 2000px 496px; */
-  /* width: 1440px; */
-  width: 100%;
+  background-size: cover;
   height: 496px;
-  display: flex;
 }
 .slider1 {
   display: flex;
@@ -16,12 +13,6 @@
   max-width: 1440px;
   margin: auto;
 }
-.foodpics {
-  display: flex;
-  width: 588px;
-  height: 400px;
-  margin-top: 63px;
-}
 .food1 {
   background-image: url("../pictures/Foodpics/slider/headfood.png");
   filter: drop-shadow(0px 40px 20px rgba(0, 0, 0, 0.15));
@@ -29,9 +20,7 @@
   width: 325px;
   height: 422px;
   display: flex;
-  left: 150px;
   z-index: 1;
-  margin-left: 100px;
 }
 h1 {
   width: 384px;
@@ -81,4 +70,19 @@ h1 {
   color: #f17228;
   margin-right: 21px;
   font-size: 10px;
+}
+@media (max-width: 1200px) {
+  .slider {
+    background-image: url("../pictures/Background/Header/base.png");
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 496px;
+    display: flex;
+  }
+  .slider1 {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    height: 496px;
+  }
 }

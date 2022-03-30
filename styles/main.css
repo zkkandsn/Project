@@ -148,11 +148,10 @@
 }
 /* FOODMENU */
 .sale {
-  position: static;
   width: 1200px;
   height: 448px;
-  margin-left: 120px;
-  margin-top: 25px;
+  /* margin-left: 120px;
+  margin-top: 25px; */
 }
 .saletitle {
   position: static;
@@ -208,6 +207,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.saletitle img {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  opacity: 0;
 }
 .saleall a {
   text-decoration: none;
@@ -321,4 +326,22 @@
   margin: auto;
   padding-left: 10px;
   padding-right: 10px;
+}
+@media (max-width: 1200px) {
+  .saleall {
+    display: none;
+  }
+  .saletitle img {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    opacity: 1;
+  }
+  .webmaininside {
+    display: flex;
+    width: 1200px;
+    height: 152px;
+    background: rgba(255, 255, 255, 0.1);
+    justify-content: space-around;
+  }
 }

@@ -77,6 +77,9 @@
   text-align: center;
   justify-content: space-between;
 }
+.search img {
+  display: none;
+}
 .searching {
   background-image: url("../pictures/Icons/header/searchlogo.svg");
   background-repeat: no-repeat;
@@ -111,10 +114,6 @@
   text-decoration: none;
 }
 .rigthside img {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
   padding: 10px;
 }
 .busket {
@@ -130,4 +129,50 @@
   text-align: center;
   align-items: center;
   padding: 10px;
+}
+@media (max-width: 1200px) {
+  .search img {
+    padding-left: 25px;
+    border: 1px solid #fbc5a6;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border: none;
+    transition-duration: 1s;
+  }
+  .searching {
+    display: none;
+  }
+  .searching:hover {
+    background-image: url("../pictures/Icons/header/searchlogo.svg");
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-position: 10px;
+    padding-left: 25px;
+
+    border: 1px solid #fbc5a6;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    width: 214px;
+    height: 32px;
+    display: flex;
+    transition-delay: 250ms;
+    transition-duration: 1s;
+  }
+  .rigthside img {
+    padding-left: 25px;
+    border: 1px solid #fbc5a6;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border: none;
+  }
+  .rigthside a {
+    display: none;
+  }
 }

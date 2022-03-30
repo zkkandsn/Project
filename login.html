@@ -57,6 +57,7 @@
         </div>
       </div>
     </header>
+    <!-- LOGIN -->
     <div class="main">
       <div class="logincontainer">
         <div class="title">
@@ -65,7 +66,7 @@
           </div>
         </div>
         <form action="login">
-          <div class="email">
+          <div class="center">
             <label for="email">И-мэйл</label>
             <input
               class="login-email"
@@ -74,26 +75,21 @@
               name="email"
               placeholder="И-мэйл хаягаа оруулна уу."
             />
-          </div>
-          <div>
+
             <label for="password">Нууц үг</label>
             <input
-              class="password"
+              id="password"
               type="password"
               name="password"
               id="password"
               placeholder="Нууц үгээ оруулна уу."
             />
+            <a href="#">Нууц үгээ мартсан?</a>
           </div>
-          <div>
-            <a href="#">Нууц үгээ мартсан</a>
-            <button type="button">Нэвтрэх</button>
-          </div>
-          <div>
+          <div class="buttons">
+            <button class="loginbutton" type="button">Нэвтрэх</button>
             <a href="#">эсвэл</a>
-          </div>
-          <div>
-            <input type="signup" name="signup" id="signup" />
+            <input type="button" name="signup" id="signup" value="Бүртгүүлэх" />
           </div>
         </form>
       </div>
