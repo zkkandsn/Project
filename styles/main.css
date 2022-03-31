@@ -148,14 +148,11 @@
 }
 /* FOODMENU */
 .sale {
-  width: 1200px;
   height: 448px;
   /* margin-left: 120px;
   margin-top: 25px; */
 }
 .saletitle {
-  position: static;
-  width: 1200px;
   height: 88px;
   justify-content: space-between;
   display: flex;
@@ -224,7 +221,6 @@
   color: #ffffff;
 }
 .cards {
-  width: 1200px;
   height: 304px;
   display: flex;
   justify-content: space-around;
@@ -247,6 +243,7 @@
   width: 75px;
   height: 43px;
   margin-left: -75px;
+  margin-top: 15px;
   border-radius: 0px 8px 0px 10px;
   background-color: #f17228;
   z-index: 0;
@@ -269,7 +266,7 @@
 
   color: #ffffff;
 }
-.salefoodimage {
+.salefoodimage img {
   margin-top: 15px;
   margin-left: 15px;
   width: 252px;
@@ -332,16 +329,74 @@
     display: none;
   }
   .saletitle img {
-    width: 40px;
-    height: 40px;
-    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+    margin-right: 40px;
     opacity: 1;
   }
   .webmaininside {
     display: flex;
-    width: 1200px;
     height: 152px;
-    background: rgba(255, 255, 255, 0.1);
     justify-content: space-around;
+    background: none;
+    box-shadow: none;
+    border-radius: none;
+  }
+  .card {
+    width: 250px;
+    height: 232px;
+    background: #fefefe;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+  }
+  .salefoodimage span {
+    position: absolute;
+    width: 75px;
+    height: 43px;
+    margin-left: -75px;
+    margin-top: 15px;
+    border-radius: 0px 8px 0px 10px;
+    background-color: #f17228;
+    z-index: 0;
+  }
+  .salefoodimage span p {
+    position: absolute;
+    width: 40px;
+    height: 18px;
+    left: 8px;
+    top: -6px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
+  }
+  .salefoodimage img {
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 218px;
+    height: 208px;
+  }
+  #cardHover {
+    width: 250px;
+    height: 232px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000070;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  #cardHover:hover {
+    opacity: 1;
+    transition: opacity 1s;
   }
 }

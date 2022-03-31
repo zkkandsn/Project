@@ -6,27 +6,27 @@ footer {
 }
 .footertop {
   display: flex;
+  justify-content: space-around;
+}
+.footertop-bar {
+  display: flex;
 }
 .footerlogo {
-  margin-top: 24px;
-  margin-left: 120px;
-  position: relative;
   width: 176px;
   height: 40px;
   display: flex;
+  margin: 30px;
 }
 .footerlogo p {
   position: static;
   width: 126px;
   height: 30px;
-  margin-left: 3px;
-  margin-top: 0px;
 
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 27px;
+  line-height: 4px;
   color: #fdfdfd;
 }
 .footermenubar {
@@ -48,22 +48,24 @@ footer {
 }
 .footerbottom {
   display: flex;
-  position: static;
-  width: 1440px;
-  height: 150px;
+  justify-content: space-around;
 }
 .footerhr {
   width: 1200px;
   height: 0px;
   border: 1px solid #ffffff;
-  margin-top: 120px;
+  margin-top: 80px;
+}
+.footerbottomright {
+  display: flex;
+  justify-content: space-between;
 }
 .social {
-  width: 180px;
   height: 65px;
-  margin-left: 120px;
+  text-align: center;
+  justify-content: space-between;
 }
-.social p {
+.social h2 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -74,13 +76,6 @@ footer {
 
   color: #ffffff;
 }
-.social img {
-  width: 20px;
-  height: 23px;
-  flex-direction: column;
-  align-items: center;
-  padding: 3px;
-}
 .footerbottomlogo {
   display: flex;
   color: #ffffff;
@@ -90,10 +85,9 @@ footer {
 }
 .terms {
   display: flex;
-  width: 282px;
   height: 16px;
-  margin-top: 15px;
-  margin-left: 400px;
+  text-align: end;
+  margin-top: 10px;
 }
 .terms a {
   text-decoration: none;
@@ -103,14 +97,12 @@ footer {
   font-weight: 400;
   font-size: 13px;
   line-height: 16px;
-  margin-left: 20px;
+
   width: 200px;
   height: 16px;
 }
 .copyright {
-  width: 236px;
   height: 40px;
-  margin-left: 104px;
   display: flex;
   flex-direction: column;
 }
@@ -127,4 +119,11 @@ footer {
 .contents {
   max-width: 1440px;
   margin: auto;
+}
+@media (max-width: 1200px) {
+  .footerbottomright {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
